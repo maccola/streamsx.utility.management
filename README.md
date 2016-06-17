@@ -8,7 +8,7 @@ To use these routines you must be running Streams 4.1.1.1 or later.
 
 The perl JSON parser must be installed.  For example, it might be loaded with a perl-JSON rpm.
 
-There is no seperate documentation for these routines.  There is a description of each routine in the comments of streamsManagement.pm.  There are also several sample perl scripts in the examples directory.  These samples can be used as-is or modified to one's own needs.
+There is no separate documentation for these routines.  There is a description of each routine in the comments of streamsManagement.pm.  There are also several sample perl scripts in the examples directory.  These samples can be used as-is or modified to one's own needs.
 
 Under the covers the perl routines call java code.  The java code needs to be compiled prior to using these routines for the first time.  To build the java code cd to the streamsManagementInternal directory and run the build.sh script.
 
